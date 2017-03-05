@@ -6,8 +6,12 @@
   "directories": {
     "example": "examples"
   },
+  "bin": {
+    "thue": "./bin/thue.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/thue.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/angrykoala/thue-js/issues"
   },
-  "homepage": "https://github.com/angrykoala/thue-js#readme"
+  "homepage": "https://github.com/angrykoala/thue-js#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.6"
+  }
 }

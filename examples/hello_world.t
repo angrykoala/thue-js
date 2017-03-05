@@ -1,3 +1,4 @@
-a::=~Hello World! 
+a::=~Hello World!
+b::=:::
 ::=
-a
+ab
