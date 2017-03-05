@@ -1,3 +1,3 @@
-a::=~Hello World!
+a::=~Hello World! 
 ::=
 a
